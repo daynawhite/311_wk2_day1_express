@@ -37,14 +37,14 @@ Use Postman to test the routes created in the following sections. Your base url 
 
 ## Part 2. Body-parser module
 
-* Require the `body-parser` module on the line below `require('express')`. (it has already been npm installed)
+<!-- * Require the `body-parser` module on the line below `require('express')`. (it has already been npm installed) -->
 
 * Give your server the ability to handle a POST request with a path "/users" and add the data from the client to the users array
 
   * This means you will be adding `req.body`. Console log this to see what you get and don't forget to send an actual body with the request in Postman
 
   * Assign an _id property to the user object that is a number that increments by 1 each time.
-    * To do this, set a variable called counter near the `{ users }` variable. Start it at the length of the users array
+    <!-- * To do this, set a variable called counter near the `{ users }` variable. Start it at the length of the users array -->
 
   * Use `res.json()` to send the user object back to the client. (if you do another GET request you should see this added)
 
